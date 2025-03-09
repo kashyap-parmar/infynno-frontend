@@ -34,6 +34,6 @@ The Properties Listing Backend is deployed and can be accessed online.
 
 **Deployed API URL**:  
 
-[https://properties-listing-backend.onrender.com](https://properties-listing-backend.onrender.com)
+[https://properties-listing-frontend.onrender.com](https://properties-listing-frontend.onrender.com)
 
 You can make requests to the API directly through the deployed link.
