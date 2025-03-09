@@ -1,4 +1,13 @@
-export { default as Header } from './header'
-export { default as FilterTabs } from './FilterTabs'
-export { default as SearchBar } from './RFComponents/searchBar'
-export { default as SelectOption } from './RFComponents/selects'
+export { default as Header } from './header';
+export { default as FilterTabs } from './FilterTabs';
+export { default as SearchBar } from './RFComponents/searchBar';
+export { default as SelectOption } from './RFComponents/selects';
+export { default as PriceChild } from './RFComponents/priceChild';
+export { default as PropertyCard } from './RFComponents/propertyCard';
+export { default as Footer } from './footer';
+export { default as CommonChild } from './RFComponents/commonChild';
+export { default as PriceRange } from './RFComponents/priceRange';
+export { default as AreaRange } from './RFComponents/areaRange';
+export { default as RoomRange } from './RFComponents/roomRange';
+export { default as Pagination } from './pagination';
+export { default as HomeComponent } from './Home';

@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+@theme {
+  --breakpoint-3xl: 120rem;
+  --color-primary-color: #31393D;
+  --color-primary-bg-color: #F0F2F3;
+  --color-secondary-color: #33443C;
+  --color-border-color: #748790;
+}
+
 @font-face {
   font-family: 'outfit';
   src: url('/fonts/Outfit-VariableFont_wght.ttf') format('truetype');

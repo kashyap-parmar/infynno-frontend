@@ -1,0 +1,1 @@
+export { default as PropertyImg } from './propertyImg.jpeg'
