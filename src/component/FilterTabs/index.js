@@ -9,7 +9,7 @@ import { BuySelectList, FlächeSelectList, PriceSelectList, typeSelectList, Zimm
 
 const FilterTabs = () => {
     const [openTab, setOpenTab] = useState(false);
-    const { type, category, price } = useAppSelector((state) => state.properyReducer);
+    const { type, category } = useAppSelector((state) => state.properyReducer);
 
     return (
         <div className='w-full xl:max-w-[1000px] 2xl:max-w-[1200px] 3xl:max-w-[1600px] flex flex-col gap-2 items-center lg:flex-row justify-between' >

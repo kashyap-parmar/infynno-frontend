@@ -4,7 +4,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 export const initialState = {
     page: 1,
-    limit: 9,
+    limit: 12,
     type: 'Kaufen',
     category: '',
     minPrice: '',

@@ -19,6 +19,9 @@ const SelectOptions = ({ data, defaultValue, type, open, setOpenTab }) => {
         } else if (type === 'category' && val !== 'Typ') {
             dispatch(setCategory(val));
         }
+        if (val === 'Typ') {
+            dispatch(setCategory(''));
+        }
     }
 
     const handleTabs = (e) => {
